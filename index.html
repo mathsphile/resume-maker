@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Maker</h1>
+        <form id="resume-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"  required>
+            </div>
+            <div>
+                <label for="contact">Contact Info:</label>
+                <textarea id="contact" name="contact" required></textarea>
+            </div>
+            <div>
+                <label for="links">Links:</label>
+                <textarea id="links" name="links" required></textarea>
+            </div>
+            <div>
+                <label for="objective">Career Objective:</label>
+                <textarea id="objective" name="objective" required></textarea>
+            </div>
+            <div>
+                <label for="projects">Projects:</label>
+                <textarea id="projects" name="projects" required></textarea>
+            </div>
+            <div>
+                <label for="certifications">Certifications:</label>
+                <textarea id="certifications" name="certifications" required></textarea>
+            </div>nBoard
+            <div>
+                <label for="education">Education:</label>
+                <textarea id="education" name="education" required></textarea>
+            </div>
+            <div>
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" required></textarea>
+            </div>
+            <div>
+                <label for="interest">Subjects of Interest:</label>
+                <textarea id="interest" name="interest" required></textarea>
+            </div>
+            <div>
+                <label for="extra">Extra-Curricular Activity:</label>
+                <textarea id="extra" name="extra" required></textarea>
+            </div>
+            <button type="submit">Generate Resume</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
